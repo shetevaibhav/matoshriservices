@@ -1,0 +1,170 @@
+body{
+
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/*nav bar design*/
+#navbar
+{
+    background-color:white !important;
+    padding: 0 11%;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    
+    font-size: 25px;
+    padding-left: 70px;
+    margin-top: 25px;
+    color:cadetblue;
+  
+}
+
+.dropdown-item {
+    color: cadetblue; 
+}
+
+#navitem:hover{
+    font-size: 200%;
+    
+}
+/*banner*/
+#banner{
+    display:flex;
+   /* background-color:floralwhite;*/
+    margin-top: 20px;
+   
+}
+#bannercontent{
+    padding: 20px;
+   
+}
+#bannerimg{
+    padding: 30px;
+}
+#banner h1{
+    color:cadetblue;
+    font-weight: bolder;
+}
+#bannerbtn1
+{
+    background-color: #00bec9;
+    border:2px solid #00bec9;
+    color:white;
+    font-weight: bolder;
+  
+}
+#bca
+{
+    text-decoration: none;
+    color:white
+}
+#bannerbtn2
+{
+  
+   background-color: white;
+   color:black;
+   margin-left: 20px;
+   border:2px solid whitesmoke;
+}
+/*servicebanner*/
+#servicesbanner
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 5px;
+
+}
+#btnservice
+{
+    margin-left: 80px;
+}
+/*blog*/
+#blog
+{
+  /*  background-color:cadetblue;*/
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 5px;
+}
+#blogtitle{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+#blogtext
+{
+    font-weight: bolder;
+    font-size: 40px;
+    
+
+}
+.articledetails
+{
+    padding: 15px;
+    border:1px solid rgb(185,185,185);
+    border-top: 0;
+}
+.articlelink
+{
+    color:cadetblue;
+    text-decoration: none;
+    
+
+}
+/*footer*/
+#footer
+{
+    background-color: #343434;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+#footer a
+{
+   color:white;
+   text-decoration: none;
+}
+#textoffooter
+{
+    text-align: right;
+}
+#footerform
+{
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+#footersearch
+{
+    background-color:white;
+}
+#footerbtn{
+    background-color: #00bec9;
+}
+
+/*contactpage*/
+#cntwithus
+{
+    text-align: center;
+   
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+#formcontent
+{
+    margin-left: 25%;
+}
+#btnform
+{
+    margin-top: 10px;
+    
+}
+.form-control
+{
+   margin-top: 30px;
+   margin-bottom: 50px;
+}
